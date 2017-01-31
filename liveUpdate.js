@@ -23,7 +23,7 @@ var updateProfile = function () {
     '<a href="tel:' + phone + '" target="_blank">' + phone + '</a>.' +
   '</p>'
 
-  rawlib.innerHTML = 
+  rawlib.textContent = 
   '<h1>Hi, my name is ' + fname + ' ' + lname + '!</h1> ' +
   '<p>' + bio + '</p> ' +
   '<p>' +
